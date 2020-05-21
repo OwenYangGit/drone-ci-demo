@@ -9,6 +9,7 @@ steps:
     path: /var/run/docker.sock
   commands:
   - docker build -t test:latest .
+  - docker ps -a
   - docker images
 
 volumes:
