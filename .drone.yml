@@ -9,6 +9,7 @@ steps:
     path: /var/run/docker.sock
   commands:
   - docker ps -a
+  - docker images
 
 volumes:
 - name: dockersock
